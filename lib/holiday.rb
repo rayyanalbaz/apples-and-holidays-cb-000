@@ -78,7 +78,7 @@ holiday_hash.each do |season , holidays|
         return name
       end
     end
-    return result
+
   end
 end
 end
