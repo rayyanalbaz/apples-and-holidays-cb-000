@@ -75,9 +75,9 @@ holiday_hash.each do |season , holidays|
   holidays.each do |name , act|
     act.flatten.each do |thing|
       if thing == "BBQ"
-      result << name.to_s
+      return "#{name}"
       end
-return result
+
     end
 
   end
