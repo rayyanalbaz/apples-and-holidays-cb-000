@@ -74,7 +74,7 @@ holiday_hash.each do |season , holidays|
   holidays.each do |name , act|
     act.each do |thing|
       if thing == "BBQ"
-        result = [] << name
+        result  << name
       end
       return result
     end
