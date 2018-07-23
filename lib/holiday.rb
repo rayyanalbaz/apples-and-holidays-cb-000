@@ -74,9 +74,10 @@ def all_holidays_with_bbq(holiday_hash)
 holiday_hash.each do |season , holidays|
   holidays.each do |name , act|
     act.values.flatten.each do |thing|
-      result << thing 
-    
+      result << thing
+
     end
+    return result
   end
 end
 end
