@@ -77,7 +77,7 @@ holiday_hash.each do |season , holidays|
       if thing == "BBQ"
       return "#{name}"
       end
-      
+
     end
 
   end
